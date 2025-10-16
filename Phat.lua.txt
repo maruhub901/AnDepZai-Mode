@@ -5249,7 +5249,7 @@ do
                                                     FarmPos = v.HumanoidRootPart.CFrame
                                                     MonFarm = v.Name
 
-                                                    NormalAttack()
+                                                    FastAttack()
                                                 end
                                             until not AutoFarmMasDevilFruit or not v.Parent or v.Humanoid.Health == 0 or
                                                 game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible ==
@@ -7844,7 +7844,7 @@ spawn(
         end
     )
 
-    local EzPhatdepzai = Tabs.Item:AddSection("World Quest")
+    local EzAndepzai = Tabs.Item:AddSection("World Quest")
 
     local v119 =
         Tabs.Item:AddToggle(
@@ -10675,7 +10675,7 @@ RunService.RenderStepped:Connect(
                 Fluent:Notify(
                     {
                         Title = "Prehistoric Island Spawn",
-                        Content = "Phat Hub Notification",
+                        Content = "AnDepZai Hub Premium Notification",
                         Duration = 10
                     }
                 )
@@ -14238,7 +14238,7 @@ RunService.RenderStepped:Connect(
                 Fluent:Notify(
                     {
                         Title = "Frozen Dimension Spawn",
-                        Content = "Phat Hub Notification",
+                        Content = "Andepzai Hub Notification",
                         Duration = 10
                     }
                 )
